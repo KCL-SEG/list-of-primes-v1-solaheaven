@@ -3,10 +3,10 @@
 
 def primes(number_of_primes):
     list = []
-    if number_of_primes ==1:
+    if number_of_primes == 1:
         list.append(2)
     else:
-        for i in range(number_of_primes):
+        for i in range(1, number_of_primes+1):
             if i/1 ==i and i / i ==1:
                 list.append(i)
     return list
