@@ -20,4 +20,5 @@ def primes(number_of_primes):
         else:
             count += 1
             continue
+    return list
 
