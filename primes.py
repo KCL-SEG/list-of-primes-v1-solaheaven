@@ -2,16 +2,12 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def primes(number_of_primes):
-    list = []
-    if number_of_primes == 1:
-        list.append(2)
-    else:
-        for i in range(2, number_of_primes+1):
-            if i > 1:
-                for j in range(2,i):
-                    if(i%j)==0:
-                        break
-                else:
+    list =[]
+    count =0
+    i = 1
+    while (count <number_of_primes):
+        if (i % 2 == 0):
+            list.append(i)
+            count+=1
+        i += 1
 
-                    list.append(i)
-    return list
