@@ -6,7 +6,7 @@ def primes(number_of_primes):
     count =0
     i = 1
     while (count <number_of_primes):
-        if (i % 2 == 0):
+        if (i % 2 != 0):
             list.append(i)
             count+=1
         i += 1
