@@ -10,4 +10,6 @@ def primes(number_of_primes):
             list.append(i)
             count+=1
         i += 1
+    return list
+
 
