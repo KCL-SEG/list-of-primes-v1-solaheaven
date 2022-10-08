@@ -7,6 +7,6 @@ def primes(number_of_primes):
         return []
     else:
         for i in range(number_of_primes):
-            if i % 1==0 and i % i ==0:
+            if i/1 ==i and i / i ==1:
                 list.append(i)
     return list
