@@ -2,17 +2,20 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def primes(number_of_primes):
-    list =[]
-    count =0
-    i = 1
-    if number_of_primes == 1:
-        list.append[2]
-    else:
-        while (count <number_of_primes+2):
-          if (count % i != 0):
-            list.append(i)
-            count+=1
-          i += 1
-    return list
+    if number_of_primes > 1:
+        for num in range(2, int(number_of_primes**0.5) + 1):
+            if number_of_primes % num == 0:
+                return False
+        return True
+    return False
+
+def main():
+    primers = []
+    for i in range(100, 301):
+        if primes(i):
+            primers.append(i)
+    print(primers)
+
+main()
 
 
