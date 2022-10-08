@@ -1,12 +1,12 @@
 """List of prime numbers generator."""
-"""ENTER YOUR SOLUTION HERE!"""
+"""Salihah Alnahdi K20055346"""
 
 def primes(number_of_primes):
     list = []
     count = 1
     while True:
         if number_of_primes <= 0:
-            print(".")
+            return list
             break
         if count > 1:
             for i in range(2,count):
